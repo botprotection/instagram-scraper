@@ -3,18 +3,28 @@
 - [Node.js](https://nodejs.org)
 - any text editor
 - discord
+- discord account
 
 # running
 
-- create a discord developer account and get the bot token
-- add it to your server
+- login to the [discord developer portal](https://discord.com/developers)
+- create a bot and get the token
+- add the bot to your server
+- install dependencies through a terminal with commands:
+```
+npm i puppeteer
+npm i discord.js
+```
 - edit config.json with your bot token
 - cd to the src folder in terminal
-- run command node bot.js
-- discord command: !scrape (USERNAME)
+- start the bot with command:
+```
+node bot.js
+```
+- use discord command: !scrape (USERNAME)
 
 # features
 
-- returns the first 12 recents of a profile
+- returns the first 12 recents of a profile through a discord webhook
 - only works on public profiles
-- easily save the photos through the discord webhook
+
