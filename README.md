@@ -25,6 +25,7 @@ node bot.js
 
 # features
 
-- returns the first 12 recents of a profile through a discord webhook
+- uses puppeteer to scrape the specified instagram profile
+- returns the first 12 recent posts of a profile through a discord webhook
 - only works on public profiles
 
