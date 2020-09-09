@@ -1,6 +1,6 @@
 # prerequisites
 
-- [Node.js](https://nodejs.org)
+- [node.js](https://nodejs.org)
 - any text editor
 - discord
 - discord account
@@ -10,7 +10,7 @@
 - login to the [discord developer portal](https://discord.com/developers)
 - create a bot and get the token
 - add the bot to your server
-- install dependencies through a terminal with commands:
+- install dependencies to the folder through a terminal with commands:
 ```
 npm i puppeteer
 npm i discord.js
